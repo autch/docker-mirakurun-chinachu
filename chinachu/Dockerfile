@@ -2,8 +2,8 @@ FROM node:10-alpine
 LABEL maintainer "h-mineta <h-mineta@0nyx.net>"
 
 ENV DOCKER="YES"
-ARG REPOSITORY="git://github.com/Chinachu/Chinachu.git"
-ARG BRANCH="master"
+ARG REPOSITORY="git://github.com/autch/Chinachu.git"
+ARG BRANCH="gamma-autch"
 
 ARG WORK_DIR="/usr/local/chinachu"
 
